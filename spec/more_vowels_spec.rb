@@ -1,3 +1,5 @@
+require_relative "../more_vowels.rb"
+
 describe 'More Vowels' do
 
   # This may look a little weird, but %w(item1 item2 item3) is another way
