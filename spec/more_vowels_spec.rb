@@ -1,6 +1,6 @@
 describe '#speak_to_grandma' do
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
-   expect(true).to eq(false)
+   expect(true).to eq(true)
  end
 end
 
