@@ -38,44 +38,17 @@ describe 'More Vowels' do
     end
   end
 
-  describe '#vowels_with_no_if_or_case' do
+
+  describe '#vowels_using_ternary_operator_not_if_or_case' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
-        expect(vowels_with_no_if_or_case(vowel)).to be true
+        expect(vowels_using_ternary_operator_not_if_or_case(vowel)).to be true
       end
     end
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_no_if_or_case(consonant)).to be false
-      end
-    end
-  end
-
-  describe '#vowels_with_array_no_equality_or_if' do
-    it 'should return true for vowels' do
-      vowels.each do |vowel|
-        expect(vowels_with_array_no_equality_or_if(vowel)).to be true
-      end
-    end
-
-    it 'should return false for consonants' do
-      consonants.each do |consonant|
-        expect(vowels_with_array_no_equality_or_if(consonant)).to be false
-      end
-    end
-  end
-
-  describe '#vowels_with_ternary_operator' do
-    it 'should return true for vowels' do
-      vowels.each do |vowel|
-        expect(vowels_with_ternary_operator(vowel)).to be true
-      end
-    end
-
-    it 'should return false for consonants' do
-      consonants.each do |consonant|
-        expect(vowels_with_ternary_operator(consonant)).to be false
+        expect(vowels_using_ternary_operator_not_if_or_case(consonant)).to be false
       end
     end
   end
@@ -100,4 +73,25 @@ describe 'More Vowels' do
     end
   end
 
+  #bonus: Write a method that returns whether a given letter is a vowel without checking equality, 
+  #or the use of `if`. Hint: use an array of vowels.
+  #remove the 'x' on line 102 to activate the pending test
+
+
+  describe '#vowels_with_array_no_equality_or_if' do
+    xit 'should return true for vowels' do
+      vowels.each do |vowel|
+        expect(vowels_with_array_no_equality_or_if(vowel)).to be true
+      end
+    end
+    
+    xit 'should return false for consonants' do
+      consonants.each do |consonant|
+        expect(vowels_with_array_no_equality_or_if(consonant)).to be false
+      end
+    end
+  end
 end
+
+
+

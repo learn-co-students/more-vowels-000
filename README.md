@@ -1,12 +1,11 @@
----
-  tags: conditional expressions, control flow, case statements, strings, methods, arrays, timtowtdi
-  languages: ruby
-  resources: 1
----
-
 # More Vowels
 
-### Skills: Control Flow, Creativity
+## Objectives
+1. Practice writing methods and returning values
+2. Practice flow control and the use of if/else statements
+3. Practice flow control and the use of case statements
+4. Practice use comparative operators
+
 
 ## Instructions
 
@@ -18,15 +17,15 @@ For the purposes of this exercise, we are assuming the vowels are `a, e, i, o, a
 
 2. Write a method that returns whether a given letter is a vowel, using a case statement.
 
-3. Write a method that returns whether a given letter is a vowel without using `if` or `case` while all on a single line.
+3. Write a method that returns whether a given letter is a vowel without using `if` or `case` while all on a single line. Use the ternary operator. 
 
-4. Write a method that returns whether a given letter is a vowel without checking equality, or the use of `if`. Hint: use an array of vowels.
+4. Write a method that will evaluate a string and return the first vowel found in the string, if any.
 
-5. Write a method that returns whether a given letter is a vower using the ternary operator.
+5. Write a method that will evaluate a string and return the ordinal position (index) of the string where the first vowel is found, if any.
 
-6. Write a method that will evaluate a string and return the first vowel found in the string, if any.
+**Bonus:**
 
-7. Write a method that will evaluate a string and return the ordinal position (index) of the string where the first vowel is found, if any.
+6. Write a method that returns whether a given letter is a vowel without checking equality, or the use of `if`. Hint: use an array of vowels.
 
 *Hint: remember that every line of Ruby code has a return value, and that a method will return the result of the last operation.*
 
